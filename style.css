@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero-section {
+    background-color: #1f2937;
+    padding: 0 200px 100px 200px;
+    color: white;
+}
+
+header {
+    display: flex;
+    padding-top: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-content {
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-text {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-btn {
+    color: white;
+    font-size: 18px;
+    padding: 6px 32px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: unset;
+}
+
+.hero-img {
+    width: 50%;
+    height: 300px
+}
+
+/* information section styling  */
+.information {
+    text-align: center;
+    padding: 50px 200px 100px 200px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-text {
+    text-align: center;
+    color: #1f2937;
+}
+
+.info-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+    border: 5px solid #3882f6;
+}
+
+.quote-section {
+    padding: 50px 200px 100px 200px;
+    background-color: #e5e7eb;
+    color: #1f2937
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.author {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: end;
+    margin-top: 8px;
+}
+
+.cta-section {
+    padding: 80px 200px 80px 200px;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    padding: 50px 70px 50px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.cta-text span {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.cta-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    padding: 6px 24px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+footer {
+    font-size: 16px;
+    color: white;
+    background-color: #1f2937;
+    padding: 50px 70px 50px 70px;
+    text-align: center;
+}
